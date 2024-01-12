@@ -61,7 +61,6 @@ const expoline: [number, number][][] = [
     ],
     [
         [49.204672, -122.906383],
-
         [49.224651, -122.889394],
         [49.233244, -122.882803],
         [49.248431, -122.896859],
@@ -79,7 +78,7 @@ const Map = () => {
         <>
             <MapContainer
                 style={{ height: "100vh" }}
-                center={[49.24966, -123.00934]}
+                center={center}
                 zoom={12}
                 scrollWheelZoom={true}
             >
